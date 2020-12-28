@@ -2,7 +2,11 @@ public interface Developer {
 
 	public void developmentOfSolution();
 
-	public void commitSolution() throws MergeProblemsException;
+	public Boolean isDevelopmentFinished();
+
+	public void analyzeIssue(String issue);
+
+	public String getName();
 }
 
 
